@@ -9,11 +9,11 @@ int main() {
     printf("Digite um número: ");
     scanf("%d", &numero);
 
-    if (numero > 0) {
+    if(numero > 0) {
         printf("O número %d é positivo.\n", numero);
-    } else if (numero < 0) {
+    }else if(numero < 0) {
         printf("O número %d é negativo.\n", numero);
-    } else {
+    }else{
         printf("O número é zero.\n");
     }
 
