@@ -4,15 +4,16 @@ int main() {
     int h = 252;
     int chute;
     
-    printf("Digite um número inteiro, positivo ou negativo: ");
+    printf("Tente adivinhar o número secreto: ");
     scanf("%d", &chute);
     
-    if(chute == h){
+    if (chute == h) {
         printf("Acertou! \n");
-    }else{
+    } else {
         printf("Você Errou! \n");
     }
-    printf("O Número Era %d", h);
+    
+    printf("O número secreto era %d", h);
 
     return 0;
 }
