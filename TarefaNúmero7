@@ -1,3 +1,5 @@
+// Pede a idade e informa se ele é criança, adolescente, adulto ou idoso
+
 #include <stdio.h>
 
 int main() {
