@@ -1,3 +1,5 @@
+// Pede um numero e informa se o palpite está certo
+
 #include <stdio.h>
 
 int main() {
