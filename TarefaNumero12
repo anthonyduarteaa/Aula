@@ -1,0 +1,22 @@
+// Solicita 2 números e diz se são iguais
+
+#include <stdio.h>
+
+int main() {
+    int i1;
+    int i2;
+    
+    printf("Digite um número: ");
+    scanf("%d", &i1);
+    
+    printf("Digite outro número: ");
+    scanf("%d", &i2);
+
+    if(i1 == i2){
+        printf("Os 2 números são iguais");
+    }else{
+        printf("Os 2 números são diferentes");
+    }
+
+    return 0;
+}
