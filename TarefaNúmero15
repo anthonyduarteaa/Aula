@@ -1,0 +1,25 @@
+// Pede a altura e o peso e calcula o imc
+
+#include <stdio.h>
+
+int main() {
+    float peso = 0;
+    float altura = 0;
+    float imc;
+    
+    
+    printf("Digite seu peso: ");
+    scanf("%f", &peso);
+    
+    printf("Digite sua altura: ");
+    scanf("%f", &altura);
+    
+    altura=altura*altura;
+    
+    imc=peso/altura;
+    
+    printf("O seu IMC é %.2f", imc*10000);
+    
+    
+    return 0;
+}
