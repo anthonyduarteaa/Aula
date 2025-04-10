@@ -12,8 +12,8 @@ int main() {
 	printf("\t\033[7m~~~~~~~~~~~~~~~~~~~~~~~~~\033[0m\n")/
 	printf("\t1 - Carro\t R$ 10.00\n");
 	printf("\t2 - Moto\t R$ 5.00\n");
-	printf("\t3 - Caminhão\t R$ 10.00\n");
-	printf("\t4 - Ônibus\t R$ 10.00\n");
+	printf("\t3 - Caminhão\t R$ 20.00\n");
+	printf("\t4 - Ônibus\t R$ 30.00\n");
 	printf("\t\033[7m~~~~~~~~~~~~~~~~~~~~~~~~~\033[0m\n");
 	printf("\tEscolha: ");
 	scanf("%d", &tipoVeiculo);
